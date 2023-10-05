@@ -4,7 +4,7 @@ by Jörg Heseler <a href="https://orcid.org/0000-0002-1497-627X"><img alt="ORCID
 
 v1.0
 
- > German translation: [Erstellung, Nutzung und Handhabung von 3D-Modellen – Umfrageergebnisse aus der NFDI4Culture Community](https://github.com/NFDI4Culture/3d-umfrageergebnisse-de)
+ > German translation: [Erstellung, Nutzung und Handhabung von 3D-Modellen – Umfrageergebnisse aus der NFDI4Culture Community](https://nfdi4culture.github.io/3d-umfrageergebnisse-de/)
 
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="cover/cover-small.jpg">
@@ -12,7 +12,7 @@ v1.0
  <img alt="publication cover" src="cover/cover-small.jpg">
 </picture>
 
-Task Area 4 of the [NFDI4Culture](https://nfdi4culture.de/) Add abstract.
+One of the project goals of NFDI4Culture, [Task Area Data Publication and Availability (TA4)](https://nfdi4culture.de/what-we-do/task-areas/task-area-4.html), is the development of concepts for central long term preservation services to ensure a sustainable infrastructure. In particular, publications from cultural disciplines with 3D data are in the foreground. The requirements for developing a concept are the needs of producers, providers and administrators of research data. One measure of this needs assessment was the implementation of a survey on the creation, use and handling of 3D models, the results of which are discussed below.
 ### Cite as
 
 Heseler, Jörg; Arnold, Matthias; Büttner, Alexandra; and Worthington, Simon. 2023. ‘Creation, Use and Handling of 3D Models – Survey Results from the NFDI4Culture Community’. Digital Publications and Data Working Group (NFDI4Culture). [https://doi.org/10.5281/zenodo.8033413](https://doi.org/10.5281/zenodo.8033413)
