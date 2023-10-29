@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Creation, Use and Handling of 3D Models – Survey Results from the NFDI4Culture Community</title>
+    <title>3D Digitisation and Preservation – Survey Results from the NFDI4Culture Community</title>
     <link type="text/css" rel="stylesheet" href="css/book.css" />
     <style>
       a.fn {
@@ -92,13 +92,13 @@
   </head>
   <body class="user-contents">
     <div class="titlepage frontmatter">
-      <h1 class="booktitle">Creation, Use and Handling of 3D Models – Survey Results from the NFDI4Culture Community</h1>
+      <h1 class="booktitle">3D Digitisation and Preservation – Survey Results from the NFDI4Culture Community</h1>
       <h3 class="bookauthor">by Jörg Heseler, Matthias Arnold, Alexandra Büttner, and Simon Worthington</h3>
       <h4 class="bookversion">v1.0</h4>
     </div>
     <div class="copyrightpage frontmatter">
       <p>Published by: Digital Publications and Data Working Group (NFDI4Culture)</p>
-      <p>Last updated: 2023-10-05</p>
+      <p>Last updated: 2023-10-29</p>
       <p>Created: 2023-10-04</p>
       <p>Language: English (United Kingdom)</p>
       <p>Created by: Simon Worthington</p>
@@ -149,7 +149,7 @@
                 </a>
               </li>
               <li>
-                <a href="#H2438538">
+                <a href="#H3740076">
                   Acknowledgements
                 </a>
               </li>
@@ -162,12 +162,59 @@
             <ol>
               <li>
                 <a href="#H2166864">
-                  Results of the 3D Survey
+                  Survey results
                 </a>
+                <ol>
+                  <li>
+                    <a href="#H3467047">
+                      1. Participants and disciplines
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H5038832">
+                      2. Digitisation methods
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H5099979">
+                      3. Digitised objects
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H8923199">
+                      4. Metadata schemas
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H3316673">
+                      5. Digitisation software
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H706109">
+                      6. Capture hardware
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H8737907">
+                      7. Display devices for 3D data
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H4417931">
+                      8. 3D formats
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#H8422827">
+                      9. 3D data viewing software
+                    </a>
+                  </li>
+                </ol>
               </li>
               <li>
                 <a href="#H5820587">
-                  Conclusion and Outlook
+                  Conclusion and outlook
                 </a>
               </li>
             </ol>
@@ -179,7 +226,7 @@
             <ol>
               <li>
                 <a href="#H9734501">
-                  Survey Data
+                  Survey data
                 </a>
               </li>
             </ol>
@@ -190,7 +237,7 @@
     <div class="article-part article-title" id="_0_0">Imprint</div>
     <div class="article-part article-richtext article-body">
       <p>Published in Germany</p>
-      <p>Date: June 2023</p>
+      <p>Date: November 2023</p>
       <figure id="F23178491" class="aligned-left image-width-25" data-aligned="left" data-width="25" data-category="none" data-caption-hidden="true"><img src="images/c311788f-07f7-4a45-9b48-1eac0238ff7a.png"></figure>
       <p></p>
       <p></p>
@@ -211,8 +258,8 @@
       <p>EN DOI: <a href="https://doi.org/10.5281/zenodo.8033413">10.5281/zenodo.8033413</a></p>
       <p>DE DOI: <a href="https://doi.org/10.5281/zenodo.8033536">10.5281/zenodo.8033536</a></p>
       <h4 id="H5885927">Publication URLs</h4>
-      <p>English version: <a href="https://tibhannover.github.io/handling-3d-models-survey-results/" title="https://tibhannover.github.io/handling-3d-models-survey-results/">https://tibhannover.github.io/handling-3d-models-survey-results/</a>&nbsp;</p>
-      <p>German version: <a href="https://tibhannover.github.io/handhabung-3d-modelle-umfrageergebnisse/ " title="https://tibhannover.github.io/handhabung-3d-modelle-umfrageergebnisse/ ">https://tibhannover.github.io/handhabung-3d-modelle-umfrageergebnisse/</a>&nbsp;</p>
+      <p>English version: <a href="https://tibhannover.github.io/3d-digitisation-and-preservation-survey-results/" title="https://tibhannover.github.io/3d-digitisation-and-preservation-survey-results/">https://tibhannover.github.io/3d-digitisation-and-preservation-survey-results/</a></p>
+      <p>German version: <a href="https://tibhannover.github.io/3d-digitalisierung-und-langzeitarchivierung-umfrageergebnisse/" title="https://tibhannover.github.io/3d-digitalisierung-und-langzeitarchivierung-umfrageergebnisse/">https://tibhannover.github.io/3d-digitalisierung-und-langzeitarchivierung-umfrageergebnisse/</a></p>
       <h3 id="H2594020">Funding information</h3>
       <p>NFDI4Culture is funded by the German Research Foundation (DFG) – Project number – <a href="https://gepris.dfg.de/gepris/projekt/441958017">441958017</a></p>
       <p>NFDI4Culture: <a href="https://nfdi4culture.de/">https://nfdi4culture.de/</a></p>
@@ -224,68 +271,83 @@
       <p>ADA Semantic Publishing Pipeline: <a href="https://github.com/NFDI4Culture/ADA-semantic-publishing">https://github.com/NFDI4Culture/ADA-semantic-publishing</a>&nbsp;</p>
       <p>Multi-format CSS theming - <a href="https://interpunct.dev/">Interpunct.dev</a>&nbsp;</p>
       <h3 id="H3471763">Fonts</h3>
-      <p>Roboto Slab. These fonts are licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>. Designer Christian Robertson Principal design. <a href="https://github.com/googlefonts/robotoslab">https://github.com/googlefonts/robotoslab</a>&nbsp;</p>
-      <p>Inter. These fonts are licensed under the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL">Open Font License</a>. The Inter project is led by Rasmus Andersson, a Swedish maker–of–software living in San Francisco. <a href="https://github.com/rsms/inter/">https://github.com/rsms/inter/</a>&nbsp;</p>
-      <h3 id="H2438538">Acknowledgements</h3>
-      <p>The authors would also like to thank the following colleagues for their helpful comments (in alphabetical order): Eva Bodenschatz and Sabrina Herzog.</p>
+      <p>Inter. These fonts are licensed under the <a href="https://github.com/rsms/inter/blob/master/LICENSE.txt">SIL Open Font License, Version 1.1</a>. The Inter project is led by Rasmus Andersson. <a href="https://github.com/rsms/inter/">https://github.com/rsms/inter/</a></p>
+      <p>Playfair Display. These fonts are licensed under the <a href="https://github.com/clauseggers/Playfair/blob/master/OFL.txt" title="https://github.com/clauseggers/Playfair/blob/master/OFL.txt">SIL Open Font License, Version 1.1</a>. Designer is Claus Eggers Sørensen. <a href="https://github.com/clauseggers/Playfair">https://github.com/clauseggers/Playfair</a></p>
+      <p>Roboto Slab. These fonts are licensed under the <a href="https://github.com/googlefonts/robotoslab/blob/main/LICENSE.txt" title="https://github.com/googlefonts/robotoslab/blob/main/LICENSE.txt">Apache License, Version 2.0</a>. Designer is Christian Robertson. <a href="https://github.com/googlefonts/robotoslab">https://github.com/googlefonts/robotoslab</a></p>
+      <h3 id="H3740076">Acknowledgements</h3>
+      <p>The authors would like to thank all participants for their valuable contributions and commitment to this survey. Your insights will help advance the future of 3D digitization and long-term preservation of cultural heritage objects. The authors would also like to thank the following colleagues for their helpful comments (in alphabetical order): Eva Bodenschatz and Sabrina Herzog.</p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
     <div class="article-part article-title" id="_1_0">Report</div>
     <div class="article-part article-richtext article-body">
       <blockquote>
-        <p>German translation: <em><a href="https://tibhannover.github.io/handhabung-3d-modelle-umfrageergebnisse/ " title="https://tibhannover.github.io/handhabung-3d-modelle-umfrageergebnisse/ ">Erstellung, Nutzung und Handhabung von 3D-Modellen – Umfrageergebnisse aus der NFDI4Culture Community</a></em></p>
+        <p>German translation: <em><a href="https://tibhannover.github.io/3d-digitalisierung-und-langzeitarchivierung-umfrageergebnisse/" title="https://tibhannover.github.io/3d-digitalisierung-und-langzeitarchivierung-umfrageergebnisse/"><span class="comment" data-id="2173474170">3D-Digitalisierung und Langzeitarchivierung – Umfrageergebnisse aus der NFDI4Culture Community</span></a></em></p>
       </blockquote>
       <p><strong>One of the project goals of NFDI4Culture, <a href="https://nfdi4culture.de/what-we-do/task-areas/task-area-4.html">Task Area Data Publication and Availability (TA4)</a>, is the development of concepts for central long term preservation services to ensure a sustainable infrastructure. In particular, publications from cultural disciplines with 3D data are in the foreground. The requirements for developing a concept are the needs of producers, providers and administrators of research data. One measure of this needs assessment was the implementation of a survey on the creation, use and handling of 3D models, the results of which are discussed below.</strong></p>
-      <p><strong>Keywords</strong>: <a href="https://www.wikidata.org/wiki/Q3490295">survey</a>, <a href="https://www.wikidata.org/wiki/Q732577">publishing</a>, <a href="https://www.wikidata.org/wiki/Q11042">culture</a>, <a href="https://www.wikidata.org/wiki/Q10418049">archiving</a>, <a href="https://www.wikidata.org/wiki/Q632897">digital preservation</a>, <a href="https://www.wikidata.org/wiki/Q3859833">3d model</a>, <a href="https://www.wikidata.org/wiki/Q35459920">3d object</a>, <a href="https://www.wikidata.org/wiki/Q843958">digitalization</a>, 3d digitization, data capturing, capturing methods, <a href="https://www.wikidata.org/wiki/Q1361664">laser scanning</a>, <a href="https://www.wikidata.org/wiki/Q41623316">metadata scheme</a>, capturing software, <a href="https://www.wikidata.org/wiki/Q7397">software</a>, capturing hardware, <a href="https://www.wikidata.org/wiki/Q111398534">hardware</a>, <a href="https://www.wikidata.org/wiki/Q190149">photogrammetry</a>, <a href="https://www.wikidata.org/wiki/Q254183">augmented reality</a>, <a href="https://www.wikidata.org/wiki/Q1758389">mixed reality</a>, <a href="https://www.wikidata.org/wiki/Q19600329">virtual reality headset</a>, <a href="https://www.wikidata.org/wiki/Q235557">file format</a>, presentation, viewer software, <a href="https://www.wikidata.org/wiki/Q1172313">file viewer</a></p>
+      <p><strong>Keywords</strong>: <a href="https://www.wikidata.org/wiki/Q98276929" title="https://www.wikidata.org/wiki/Q98276929">NFDI4Culture</a>; <a href="https://www.wikidata.org/wiki/Q3490295">survey</a>; <a href="https://www.wikidata.org/wiki/Q632897">digital preservation</a>; <a href="https://www.wikidata.org/wiki/Q15809982" title="https://www.wikidata.org/wiki/Q15809982">research data</a>; <a href="https://www.wikidata.org/wiki/Q3859833">3d model</a>; <a href="https://www.wikidata.org/wiki/Q35459920">3d object</a>; <a href="https://www.wikidata.org/wiki/Q122957521" title="https://www.wikidata.org/wiki/Q122957521">3d digitisation</a>; <a href="https://www.wikidata.org/wiki/Q122957544" title="https://www.wikidata.org/wiki/Q122957544">3d formats</a>; <a href="https://www.wikidata.org/wiki/Q122957554" title="https://www.wikidata.org/wiki/Q122957554">digitalisation methods</a>; <a href="https://www.wikidata.org/wiki/Q41623316">metadata scheme</a></p>
       <p><strong>Cite as</strong></p>
-      <p><em>Heseler, Jörg; Arnold, Matthias; Büttner, Alexandra; and Worthington, Simon. 2023. ‘Creation, Use and Handling of 3D Models – Survey Results from the NFDI4Culture Community’. Digital Publications and Data Working Group (NFDI4Culture). <a href="https://doi.org/10.5281/zenodo.8033413">https://doi.org/10.5281/zenodo.8033413</a>.</em></p>
+      <p><em>Heseler, Jörg; Arnold, Matthias; Büttner, Alexandra; and Worthington, Simon. 2023. ‘3D Digitisation and Preservation – Survey Results from the NFDI4Culture Community’. Digital Publications and Data Working Group (NFDI4Culture). <a href="https://doi.org/10.5281/zenodo.8033413">https://doi.org/10.5281/zenodo.8033413</a>.</em></p>
       <hr>
-      <h2 id="H2166864">Results of the 3D Survey</h2>
-      <p>This survey was sent out via email before and during the <a href="https://nfdi4culture.de/news-events/events/forum-3d-digital-preservation.html">NFDI4Culture Forum "3D objects: digitisation, presentation and preservation"</a> in May 2022. The primary aim of this survey was to identify file formats and metadata schemes used by our community in the field of 3D. In order to get a better understanding of the technical aspects of the digitisation process, we specifically asked about the use of software and hardware for capturing and digitising 3D objects. The tool used was a NextCloud form.</p>
-      <figure id="F66192711" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/12f1200f-f54b-46cc-bc91-73eb33fcc4c5.png">
+      <h2 id="H2166864">Survey results</h2>
+      <h3 id="H3467047">1. Participants and disciplines</h3>
+      <p>This survey on 3D digitisation and preservation was conducted before and during the <a href="https://nfdi4culture.de/news-events/events/forum-3d-digital-preservation.html">NFDI4Culture Forum "3D objects: digitisation, presentation and preservation"</a> in May 2022. The primary aim of this survey was to identify file formats and metadata schemes used by our community in the field of 3D. </p>
+      <figure id="F66192711" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/340f8054-2beb-4e24-b646-a68788ef1647.png">
         <figcaption><span class="label-counter" data-book-counter="1" data-chapter-counter="1">Figure</span><span class="text">Which discipline would you classify yourself as?</span></figcaption>
       </figure>
-      <p>Comparing approaches to 3D digitisation across different domains can help identify community-specific application scenarios, needs or bias within subject areas. Among the 20 survey participants, most associated themselves with disciplines outside the cultural heritage sector. In this regard, however, architecture and art were the largest subject groups, followed by dance and media studies.</p>
-      <figure id="F63452571" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/50e378fb-7b89-49fd-a3e2-fa7b2e0d5378.png">
-        <figcaption><span class="label-counter" data-book-counter="2" data-chapter-counter="2">Figure</span><span class="text">Which methods do you use to digitise 3D objects?</span></figcaption>
+      <p>Eleven out of twenty participants (55%) identified themselves in disciplines outside the cultural heritage sector. Apart from that, architecture was the largest subject group, followed by art, media and dance studies. However, musicology was not represented.</p>
+      <h3 id="H5038832">2. Digitisation methods</h3>
+      <figure id="F63452571" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/bbb7b6d7-4f35-47b5-8a84-feb030ab8986.png">
+        <figcaption><span class="label-counter" data-book-counter="2" data-chapter-counter="2">Figure</span><span class="text">Which methods do you use to digitise 3D objects<span class="comment" data-id="2546594093">?</span></span></figcaption>
       </figure>
-      <p>When it comes to digitisation methods, photogrammetry, laser scanning, CT and X-ray were the most common responses. This question further revealed the diversity of methods currently in use, a total of 10 among 20 participants. Some of which we had not yet thought about before, such as structure-from-motion, strip-lighting and reflectance transformation imaging (RTI).</p>
-      <figure id="F59599821" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/8214d0ef-7116-4244-bbd9-e67fa07212ec.png">
+      <p>When asked which digitization methods our participants used, photogrammetry was used fifteen times, followed by strip light methods eleven times, laser scanning methods nine times, as well as terrain models seven times, structure-from-motion (SfM) and computer tomography (CT) four times each, as well as terrestrial laser scanning (TLS) and Reflectance Transformation Imaging (RTI) twice each. Ultimately, the modeling of abstract models such as molecules but also the use of X-ray were mentioned once each.</p>
+      <h3 id="H5099979">3. Digitised objects</h3>
+      <figure id="F59599821" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/b5bdeea8-8f9e-4632-90ec-2753eee6fed4.png">
         <figcaption><span class="label-counter" data-book-counter="3" data-chapter-counter="3">Figure</span><span class="text">What are you digitising?</span></figcaption>
       </figure>
-      <p><br>Significant was also the broad variety of objects with regard to size, material and surface structure that had been digitised. The majority of participants mentioned museum objects, from pottery to sculptures made of different materials, not only ceramics but also metal. Responses further included very small objects such as insects, fossils, but also bones are also represented, for which mainly CT/X-ray processes were used. In addition, very large objects such as buildings and landscapes were represented, which were mostly captured with stand-up laser scanners or drones using photogrammetry procedures.</p>
-      <figure id="F40902971" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/27dae287-89ce-484c-b14c-84f5e05f01e5.png">
+      <p>With regard to the objects to be digitized, the variety in terms of size, material and surface structure was significant. Museum objects were frequently mentioned, from pottery to sculptures made from various materials such as ceramics or metal. Very large objects such as buildings and landscapes followed, which were mostly mentioned in connection with capture using stand-up laser scanners or drones using photogrammetry methods. Ultimately, very small objects such as insects, fossils or even bones were listed, for which CT or X-ray methods were mainly used.</p>
+      <h3 id="H8923199">4. Metadata schemas</h3>
+      <figure id="F40902971" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/40c087a1-cf6e-4777-923f-47081040a36a.png">
         <figcaption><span class="label-counter" data-book-counter="4" data-chapter-counter="4">Figure</span><span class="text">Which metadata schemes do you use?</span></figcaption>
       </figure>
-      <p>The metadata schemas participants used to describe the physical and digital materials were LIDO, which is common for 3D data, but also simply XML with DublinCore or with its own vocabulary. Newer metadata schemas such as XMP or CARARE were not mentioned. One participant stated not to be familiar with the term metadata schema. The digitisation of cultural heritage materials always involves collaboration of several stakeholders and steps requiring different expertise and prior knowledge. Thus, providing meaningful explanations for technical terms is crucial in order to establish a common ground for discussion and knowledge sharing among the diverse cultural heritage community. Notably, more than half of the respondents stated to not use metadata schemas at all. Here we still have to clarify to what extent common schemes for 3D data were or are insufficient or unsuitable.</p>
-      <figure id="F33020721" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/de66cd61-aad3-41ab-b4e6-04f8034905ef.png">
+      <p>When asked about the metadata schemas used to describe the physical and digital objects, the XML schema Lightweight Information Describing Objects (LIDO), which is common for 3D data, was mentioned twice and Dublin Core, Simple Knowledge Organization System (SKOS), Conceptual Reference Model of the International Council (CIDOC), DataCite, Data Catalog Vocabulary (DCAT) and a metadata schema by Homburg et al. once each. Data representation forms or concepts for structuring bibliographic information were also occasionally listed, which will not be discussed further here. One participant indicated that he was unfamiliar with the term metadata schema. Four participants reported not using metadata schemas. Seven participants did not provide any information.</p>
+      <h3 id="H3316673">5. Digitisation software</h3>
+      <figure id="F33020721" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/f5b9d685-87d4-483e-9bd7-4506ab4fcb7d.png">
         <figcaption><span class="label-counter" data-book-counter="5" data-chapter-counter="5">Figure</span><span class="text">What software do you use to digitise 3D objects?</span></figcaption>
       </figure>
-      <p>Concerning 3D digitisation software (SW), a clear majority mentioned 3D scan processing SW for point clouds or photos as depicted in yellow in the figure above. However, half of these applications were device and manufacturer-specific. In contrast, software for 3D scan analysis, 3D modelling or project documentation was mentioned less frequently.</p>
-      <figure id="F31967781" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/a9ccc8fb-cfa0-47c3-bcc1-1573fb6644a1.png">
+      <p>Regarding 3D digitization software (SW), a clear majority (72.5%) mentioned 3D scanning processing software for point clouds or photos. However, more than half of these applications were device-specific. Software for 3D scan analysis, 3D modeling or project documentation, on the other hand, was mentioned less frequently.</p>
+      <h3 id="H706109">6. Capture hardware</h3>
+      <figure id="F31967781" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/4c759712-f496-49b3-9e8f-b9ad824af29a.png">
         <figcaption><span class="label-counter" data-book-counter="6" data-chapter-counter="6">Figure</span><span class="text">What hardware do you use to capture 3D objects?</span></figcaption>
       </figure>
-      <p>As far as hardware for digitising 3D objects is concerned, participants mentioned the use of hand-held scanners that work with stripe light or laser scanning methods, among others, predominantly for capturing small to medium-sized objects. Stand scanners were used that work with laser light, predominantly for medium-sized to large objects. Single-lens reflex (SLR) and mirrorless cameras were also used to capture small to medium sized objects, either to calculate 3D models using photogrammetry techniques or to produce simple 2D images from different perspectives. Drones were also used for buildings and landscapes. In addition, one respondent mentioned an RTI (Reflectance Transformation Imaging) dome scanner.&nbsp;</p>
-      <figure id="F49406191" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/4c08fcd5-e09f-4555-8ae2-83b2d7a6edca.png">
+      <p>In terms of hardware for object detection, handheld scanners were mentioned primarily for the detection of small to medium-sized objects that work with strip light or laser scanning methods. Stand scanners were used that work with laser light, predominantly for medium-sized to large objects. Single-lens reflex (SLR) and mirrorless cameras were also used to capture small to medium sized objects, either to calculate 3D models using photogrammetry techniques or to produce simple 2D images from different perspectives. Drones were also used for buildings and landscapes. In addition, one respondent mentioned a Reflectance Transformation Imaging (RTI) dome scanner.</p>
+      <h3 id="H8737907">7. Display devices for 3D data</h3>
+      <figure id="F49406191" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/bb18823e-611a-4fdf-b8cd-94b47aa88501.png">
         <figcaption><span class="label-counter" data-book-counter="7" data-chapter-counter="7">Figure</span><span class="text">Do you use special hardware to display your 3D data?</span></figcaption>
       </figure>
-      <p>While the majority of survey participants does not seem to use specific devices for displaying 3D data, VR (Virtual Reality) glasses were the most frequent responses, including the Oculus Rift and HTC Vive glasses but also the Hololens AR (Augmented Reality) glasses. An iPad tablet and a MultiTouch table were also mentioned once.</p>
-      <figure id="F14202431" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/4757c23a-bac8-4e0f-824b-a81bd983543b.png">
+      <p>Six participants stated that they did not use any special devices to display 3D data. Separately, virtual reality (VR) glasses were mentioned four times, including the Oculus Rift, Oculus Quest and HTC Vive glasses, as well as the augmented reality (AR) glasses Microsoft Hololens twice. An Apple iPad tablet and a MultiTouch table were also mentioned once each.</p>
+      <h3 id="H4417931">8. 3D formats</h3>
+      <figure id="F14202431" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/2122401c-ce8f-4f66-af55-a010c5807a68.png">
         <figcaption><span class="label-counter" data-book-counter="8" data-chapter-counter="8">Figure</span><span class="text">Which 3D formats do you work with for digitisation, presentation or digital preservation?</span></figcaption>
       </figure>
-      <p>The most important question in the survey for digital preservation was which 3D formats are used by our community for different application scenarios, such as digitisation, presentation and preservation. Wavefront OBJ was the one most frequently mentioned, followed by Stanford Polygon (PLY) and Stereolithography (STL). The STL format is not able to store colour information and is more commonly used in the context of 3D printing. We have not yet dealt with stereolithography in this survey. Only the two formats shown in red in the figure above, Filmbox (FBX) and Nexus (NXS or NXZ), are not suitable for digital preservation. Filmbox (FBX) is a proprietary, non-open format, which means that there is no openly accessible format specification that describes the exact structure of an FBX file. If this format is no longer widespread in the future, the long-term archive may not be able to develop its own tools to render or convert FBX files. In the case of Nexus, the distribution is still too low to ensure that 20 years later there will still be tools that can display this format.</p>
-      <figure id="F86260851" class="aligned-center image-width-75" data-aligned="center" data-width="75" data-category="figure"><img src="images/fb3e9ae4-4f56-4e7a-97d6-8b5068f419a9.png">
+      <p>The most important question for us in this survey was which 3D formats the community uses for various application scenarios, such as digitization, presentation and digital long-term archiving. The participants used Wavefront OBJ twelve times, Stanford Polygon (PLY) six times, Filmbox (FBX) and Stereolithography (STL) four times each, Graphics Language Transmission Format (GLTF or the binary variant GLB) and Extensible 3D (X3D) twice each once, Industry Foundation Classes (IFC), Nexus (NXS or the compressed variant NXZ) and XYZ once each as well as general CT formats once.</p>
+      <h3 id="H8422827">9. 3D data viewing software</h3>
+      <figure id="F86260851" class="aligned-center image-width-100" data-aligned="center" data-width="100" data-category="figure"><img src="images/c5856cc7-3a66-469d-9089-54ba8422bc6e.png">
         <figcaption><span class="label-counter" data-book-counter="9" data-chapter-counter="9">Figure</span><span class="text">Do you use special software to display your 3D data?</span></figcaption>
       </figure>
-      <p>Finally, the survey asked about the software used to display 3D data. Here, Meshlab was named most frequently. Responses further included browser-based tools such as the 3DHOP viewer, which is based on the Nexus adaptive 3D viewer, and the kompakkt viewer, which in turn is based on the Babylon viewer or Babylon.js framework. All viewers shown in the figure above are open source, only the GOM Inspect, depicted in red, is proprietary, i.e. non-open.</p>
-      <h2 id="H5820587">Conclusion and Outlook</h2>
-      <p>This survey gave us insight into the formats, devices, and software used by our community. A follow-up survey will incorporate the results of this survey and identify long-term archival purposes and 3D-related use cases for our community. For this purpose, more than 20 participants as in this survey should be reached in order to be able to draw general conclusions. Based on this and the following survey results, a guide to the preservation of 3D cultural heritage objects will then be produced.</p>
+      <p>Finally, we asked&nbsp;what software is used to display 3D data. MeshLab was mentioned six times, the 3DHOP viewer, which is based on the Nexus adaptive 3D viewer, three times and CloudCompare twice. The RTIViewer, GigaMesh, a Fraunhofer Viewer, GOM Inspect, Smithsonian Voyager, SketchFab and the Babylon Viewer were also mentioned once each. The kompakkt viewer, which is based on the Babylon.js framework, was also mentioned once. One participant reported using his own WebGL-based viewer.</p>
+      <h2 id="H5820587">Conclusion and outlook</h2>
+      <p>This survey gave us valuable insight into the formats, devices and software used by the community for 3D digitization and long-term archiving. This lays the foundation for further in-depth investigations and developments.</p>
+      <p>A first interesting aspect of this survey was the question about the use of metadata schemas. On the one hand, it remains unclear why 35% of the participants did not provide any information here: Did they not record metadata or were they unfamiliar with the term metadata schema? On the other hand, current metadata schemes such as CARARE or Extensible Metadata Platform (XMP) were not mentioned. This also raises the important question of whether existing schemes are inadequate or unsuitable for 3D data. A deeper study of this topic is required to understand the reasons behind this finding.</p>
+      <p>A second interesting aspect was the question of 3D formats used. Formats such as Extensible 3D (X3D) and Graphics Language Transmission Format (GLTF) or Digital Asset Exchange (DAE) are particularly suitable for long-term archiving due to their high degree of disclosure, self-documentation and timeliness. However, these were only mentioned in the minority or not at all. Formats that are not suitable for long-term archiving were also mentioned: Filmbox (FBX) is a proprietary format, which means that there is no openly available format specification that describes the exact structure of an FBX file. If this format ceases to be widely used in the future, long-term archives may not be able to develop their own tools for rendering or converting FBX files. In the case of Nexus (NXS or NXZ), the distribution is too low to ensure that there will still be tools that can display this format in twenty years. Furthermore, the data structure of the text-based point cloud format XYZ is not clear, which is why this format is unsuitable for software-independent exchange. The standardized ASTM E57 format would be an alternative to the long-term archiving of 3D point clouds. However, we have not yet examined CT formats for their archivability. Finally, the information provided by the participants also showed that, on the one hand, when querying formats in further surveys, we must differentiate between the purposes and, on the other hand, continue to point out the advantages of 3D formats that can be archived for a long time.</p>
+      <p>What is positive is that over 77% of the viewers mentioned for displaying 3D data are open source. On the negative side, 55% of the 3D scan processing software used is device-specific.</p>
+      <p>Future surveys will delve deeper into these results and focus on specific 3D use cases in addition to long-term archiving purposes. In order to draw generalized conclusions, it is crucial to reach a larger number of participants and better understand their specific needs.</p>
+      <p>Finally, we plan to create a guide for the long-term digital preservation of 3D cultural heritage objects based on the collected findings and further research. This guide will help establish good practices in the community and promote collaboration between different actors in the field of cultural heritage.</p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
     <div class="article-part article-title" id="_2_0">Appendix</div>
     <div class="article-part article-richtext article-body">
-      <h2 id="H9734501">Survey Data</h2>
-      <p>Survey <a href="https://github.com/TIBHannover/handling-3d-models-survey-results/data/survey-results-3d.zip" title="https://github.com/TIBHannover/handling-3d-models-survey-results/data/survey-results-3d.zip">source data</a> (anonymised) as an XLSX or CSV spreadsheet stored on GitHub.</p>
+      <h2 id="H9734501">Survey data</h2>
+      <p>Anonymized survey <a href="https://tibhannover.github.io/3d-digitisation-and-preservation-survey-results/data/3d-digitisation-and-preservation-survey-results-data.zip" title="https://tibhannover.github.io/3d-digitisation-and-preservation-survey-results/data/3d-digitisation-and-preservation-survey-results-data.zip">source data</a> on GitHub.</p>
     </div>
     <section class="fnlist" role="doc-footnotes"></section>
   </body>
