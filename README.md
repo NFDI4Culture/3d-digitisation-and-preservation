@@ -4,7 +4,7 @@ by Jörg Heseler <a href="https://orcid.org/0000-0002-1497-627X"><img alt="ORCID
 
 v1.0
 
- > German translation: [Erstellung, Nutzung und Handhabung von 3D-Modellen – Umfrageergebnisse aus der NFDI4Culture Community](https://nfdi4culture.github.io/3d-umfrageergebnisse-de/)
+ > German translation: [3D-Digitalisierung und Langzeitarchivierung – Umfrageergebnisse aus der NFDI4Culture Community](https://nfdi4culture.github.io/3d-digitalisierung-und-langzeitarchivierung/)
 
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="cover/cover-small.jpg">
