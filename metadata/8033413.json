@@ -1,0 +1,90 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.8033413",
+  "@type": "https://schema.org/ScholarlyArticle",
+  "identifier": "https://doi.org/10.5281/zenodo.8033413",
+  "name": "3D Digitisation and Preservation – Survey Results from the NFDI4Culture Community",
+  "creator": [
+    {
+      "name": "Jörg Heseler",
+      "familyName": "Jörg Heseler",
+      "@id": "https://orcid.org/0000-0002-1497-627X",
+      "@type": "Person"
+    },
+    {
+      "name": "Matthias Arnold",
+      "familyName": "Matthias Arnold",
+      "@id": "https://orcid.org/0000-0003-0876-6177",
+      "@type": "Person"
+    },
+    {
+      "name": "Alexandra Büttner",
+      "familyName": "Alexandra Büttner",
+      "@id": "https://orcid.org/0000-0002-4950-0941",
+      "@type": "Person"
+    },
+    {
+      "name": "Simon Worthington",
+      "familyName": "Simon Worthington",
+      "@id": "https://orcid.org/0000-0002-8579-9717",
+      "@type": "Person"
+    }
+  ],
+  "author": [
+    {
+      "name": "Jörg Heseler",
+      "familyName": "Jörg Heseler",
+      "@id": "https://orcid.org/0000-0002-1497-627X",
+      "@type": "Person"
+    },
+    {
+      "name": "Matthias Arnold",
+      "familyName": "Matthias Arnold",
+      "@id": "https://orcid.org/0000-0003-0876-6177",
+      "@type": "Person"
+    },
+    {
+      "name": "Alexandra Büttner",
+      "familyName": "Alexandra Büttner",
+      "@id": "https://orcid.org/0000-0002-4950-0941",
+      "@type": "Person"
+    },
+    {
+      "name": "Simon Worthington",
+      "familyName": "Simon Worthington",
+      "@id": "https://orcid.org/0000-0002-8579-9717",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "keywords": "NFDI4Culture, survey, 3d model, 3d object, digital preservation, digitisation, research data, metadata scheme, file format",
+  "datePublished": "2023-12-15",
+  "dateModified": "2023-11-27T10:12:03.019096+00:00",
+  "inLanguage": {
+    "alternateName": "eng",
+    "@type": "Language",
+    "name": "English"
+  },
+  "contentSize": "1.15 MB",
+  "version": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "<p>One of the project goals of <a href=\"https://nfdi4culture.de/\">NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage</a> and specifically the <a href=\"https://nfdi4culture.de/what-we-do/task-areas/task-area-4.html\">Task Area Data Publication and Availability</a> (TA4) is the development of concepts for central long term preservation services to ensure a sustainable infrastructure. In particular, publications from cultural disciplines with 3D data are in the foreground. The requirements for developing a concept are the needs of producers, providers and administrators of research data. One measure of this needs assessment was the implementation of a survey on the creation, use and handling of 3D models, the results of which are discussed below.</p>",
+  "funding": [
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "018mejw64",
+        "name": "Deutsche Forschungsgemeinschaft"
+      },
+      "name": "NFDI4Culture – Konsortium für Forschungsdaten zu materiellen und immateriellen Kulturgütern (441958017)",
+      "url": {
+        "identifier": "https://gepris.dfg.de/gepris/projekt/441958017?context=projekt&task=showDetail&id=441958017&",
+        "scheme": "url"
+      }
+    }
+  ],
+  "url": "https://zenodo.org/uploads/8033413"
+}

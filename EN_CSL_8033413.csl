@@ -1,0 +1,34 @@
+{
+  "DOI": "10.5281/zenodo.8033413",
+  "abstract": "One of the project goals of NFDI4Culture \u2013 Consortium for Research Data on Material and Immaterial Cultural Heritage and specifically the Task Area Data Publication and Availability (TA4) is the development of concepts for central long term preservation services to ensure a sustainable infrastructure. In particular, publications from cultural disciplines with 3D data are in the foreground. The requirements for developing a concept are the needs of producers, providers and administrators of research data. One measure of this needs assessment was the implementation of a survey on the creation, use and handling of 3D models, the results of which are discussed below.",
+  "author": [
+    {
+      "family": "J\u00f6rg Heseler"
+    },
+    {
+      "family": "Matthias Arnold"
+    },
+    {
+      "family": "Alexandra B\u00fcttner"
+    },
+    {
+      "family": "Simon Worthington"
+    }
+  ],
+  "id": "8033413",
+  "issued": {
+    "date-parts": [
+      [
+        "2023",
+        "12",
+        "15"
+      ]
+    ]
+  },
+  "language": "eng",
+  "note": "Funding by Deutsche Forschungsgemeinschaft ROR 018mejw64.",
+  "publisher": "Zenodo",
+  "title": "3D Digitisation and Preservation \u2013 Survey Results from the NFDI4Culture Community",
+  "type": "article",
+  "version": "1.0.0"
+}
