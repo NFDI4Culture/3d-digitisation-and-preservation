@@ -4,13 +4,19 @@
       "https://www.w3.org/ns/pub-context"
     ],
     "conformsTo": "https://www.w3.org/TR/pub-manifest/",
-    "type": "Book",
+    "type": "Report",
     "name": "3D Digitisation and Preservation",
-    "author": "NFDI4C",
+    "author": ["Jörg Heseler", "Matthias Arnold", "Alexandra Büttner", "Simon Worthington"],
     "inLanguage": "en",
     "readingOrder": [
-      "../../../index.html" 
+      "../uhtml/index.html" 
     ],
+    "resources": [
+      {
+        "type": "LinkedResource",
+        "url": "index.html",
+        "rel": "contents"
+      }]
   }
 
 
